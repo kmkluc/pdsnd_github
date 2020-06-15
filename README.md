@@ -14,6 +14,6 @@ Files uploaded include bikeshare.py and readme.txt.
 In the creation of the project the following was used:
 https://stackoverflow.com/questions/26266362/how-to-count-the-nan-values-in-a-column-in-pandas-dataframe- Null value count
 
-https://pythontic.com/datetime/date/weekday- removed from code after working with mentor for a cleaner solution to the weekday name issue.
+https://pythontic.com/datetime/date/weekday- removed from code after working with mentor for a cleaner solution to the weekday name issue for python project. Utilized in the github project just to change code.
 
 Also worked hand in hand with a colleague who has python experience to get the code created.
