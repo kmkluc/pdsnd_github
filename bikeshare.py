@@ -39,7 +39,6 @@ def get_filters():
                     print(i)
                     print(" is not valid. Please try again. \n")
                 else:
-                    # if i in CITY_DATA.keys():
                     print(i)
                     print(" is valid.\n")
             if false_count >= 1:
