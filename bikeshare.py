@@ -27,7 +27,7 @@ def get_filters():
 
     while false_count >= 0:
         city=str(input("\n Pick the city(ies) for which you would like to see data for separated by commas: Chicago, New York City, Washington.\n"))
-        # splits, makes lower case and Remove extra white space if 2 or more cities entered
+        # splits, makes lower case, and removes extra white space if 2 or more cities entered
         city = [i.strip().lower() for i in city.split(',')]
         if 'end' in city:
             print("Thank you, goodbye.")
@@ -50,6 +50,7 @@ def get_filters():
 
     while false_count >= 0:
         month= str(input("\n Please which month(s) from January to June you would to see data for seperated by commas: \n"))
+        # splits, makes lower case, and removes extra white space if 2 or more months entered
         month = [i.strip().lower() for i in month.split(',')]
         if 'end' in month:
             print("Thank you, goodbye.")
@@ -71,6 +72,7 @@ def get_filters():
                 break
 
     day=str(input("\n Please choose the day(s) of the week you would like to see data for seperated by commas: \n"))
+    # splits, makes lower case, and removes extra white space if 2 or more days entered
     day = [i.strip().lower() for i in day.split(',')]
     if 'end' in day:
         print("Thank you, goodbye.")
