@@ -17,3 +17,5 @@ https://stackoverflow.com/questions/26266362/how-to-count-the-nan-values-in-a-co
 https://pythontic.com/datetime/date/weekday- removed from code after working with mentor for a cleaner solution to the weekday name issue for python project. Utilized in the github project just to change code.
 
 Also worked hand in hand with a colleague who has python experience to get the code created.
+
+https://stackoverflow.com/questions/62391641/using-clicks-clear-function- added clearshell command
