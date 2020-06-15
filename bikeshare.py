@@ -105,14 +105,6 @@ def load_data(city, month, day):
 
     if isinstance(city, list):
         df = pd.concat(map(lambda city: pd.read_csv(CITY_DATA[city]), city),sort=True)
-        # reorganize DataFrame columns after a city concat
-        try:
-            df = df.reindex(columns=['Unnamed: 0', 'Start Time', 'End Time',
-                                     'Trip Duration', 'Start Station',
-                                     'End Station', 'User Type', 'Gender',
-                                     'Birth Year'])
-        except:
-            pass
     else:
         df = pd.read_csv(CITY_DATA[city])
 
