@@ -1,15 +1,14 @@
 ### Date created
-Include the date you created this project and README file.
+15 June 2020
 
 ### Project Title
-Replace the Project Title
+P3: Github Project using Python Code
 
 ### Description
-Describe what your project is about and what it does
+The code and documentation in this project was created with the intent to analyze the data for a bike share service across three different cities.
 
 ### Files used
 Include the files used
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
