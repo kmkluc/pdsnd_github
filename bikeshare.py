@@ -121,7 +121,7 @@ def load_data(city, month, day):
 
     # extract month and day of week from Start Time to create new columns
     df['Month'] = df['Start Time'].dt.month
-    df['Day_of_Week'] = df['Start Time'].dt.day_name()
+    df['Day_of_Week'] = df['Start Time'].dt.weekday
     df['Hour'] = df['Start Time'].dt.hour
 
 
@@ -158,9 +158,13 @@ def time_stats(df):
     month_in_string = month_look_up[str(popular_month)]
     print("1. The most common month was: ", month_in_string)
 
+    # reference https://pythontic.com/datetime/date/weekday
+    day_look_up = {'0': 'Monday', '1': 'Tuesday', '2': 'Wednesday', '3': 'Thursday', '4': 'Friday', '5': 'Saturday','6': 'Sunday'}
+
     # display the most common day of week
     popular_day = df['Day_of_Week'].mode()[0]
-    print("2. The most common day of the week was: {}".format(popular_day))
+    day_in_string = day_look_up[str(popular_day)]
+    print("2. The most common day of the week was: {}".format(day_in_string))
 
     # display the most common start hour
     popular_hour = df['Hour'].mode()[0]
