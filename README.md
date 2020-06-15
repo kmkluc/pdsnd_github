@@ -2,7 +2,7 @@
 15 June 2020
 
 ### Project Title
-P3: Github Project using Python Code
+Project 3: Github Project- Exploring git using Python Code
 
 ### Description
 The code and documentation in this project was created with the intent to analyze the data for a bike share service across three different cities (Chicago, Washington, and New York City) for the first 6 months of 2017.
